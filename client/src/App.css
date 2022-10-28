@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+.home_hero {
+  background-image: url(../src/assets/hero-chat-removebg-preview.png);
+  height: 89vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: bisque !important;
+  font-size: 22px !important;
+}
+
+.navbar {
+  height: 11vh;
+  background-color: slategrey !important;
+}
+
+.brand_name {
+  font-size: 40px !important;
+  color: bisque !important;
+  font-family: 'Lobster Two', cursive;
+}
+
+.member-status-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.member-status {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.sidebar-online-status {
+  color: green;
+}
+
+.sidebar-offline-status {
+  color: gray;
+}
+
+.sidebar-online-status,
+.sidebar-offline-status {
+  font-size: 11px;
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  left: 12px;
+}
