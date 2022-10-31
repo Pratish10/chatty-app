@@ -29,7 +29,7 @@ const Register = () => {
   async function uploadImg() {
     const data = new FormData();
     data.append("file", img);
-    data.append("upload_preset", process.env.UPLOAD_PRESET_NAME);
+    data.append("upload_preset", "chatty app");
     try {
       setUploadingImg(true);
       const res = await fetch(
